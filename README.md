@@ -3,7 +3,13 @@
 
 ## Resolución de Pruebas
 
-1. Preparo mi ambiente local y hago un exploritoring testing como muestra el documento: (./)
+1. Preparo mi ambiente local y hago un exploritoring testing como muestra el documento: `Informe.pdf`
+
+2. Creo los casos de pruebas requeridos. 
+
+3. Realizo la ejecución de los test:
+
+  ![result-test](./resultTest.png)
 
 
 ## Requerimientos
