@@ -19,5 +19,5 @@ jobs:
         run: npm install
       # es recomendable que antes de los test se haga el build pero a modo de esta prueba, no lo realizaré
       # ejecutar pruebas unitarias
-      - name: Test
+      - name: Test 
         run: npm run test
