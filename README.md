@@ -1,5 +1,11 @@
 # Challenge Backend
 
+
+## Resolución de Pruebas
+
+1. Preparo mi ambiente local y hago un exploritoring testing como muestra el documento: (./)
+
+
 ## Requerimientos
 
 Hacer un enpoint (get) que devuelva algunos post (3 o mas). El enpoint debería quedar como `/posts` (get).
