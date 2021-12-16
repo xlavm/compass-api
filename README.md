@@ -3,21 +3,48 @@
 
 ## Resolución de Tests
 
-1. Preparo mi ambiente local y hago un exploritoring testing como muestra el documento: `Informe.pdf`
+### **Test Inicial**
+* Casos de Pruebas: **1**
+* Porcentaje de Cobertura: **51.06%** 
 
-2. Creo los casos de pruebas requeridos. 
+![test-coverage1](images/test-coverage1.png)
 
-3. Realizo la ejecución de los test:
+### **Test Final**
+* Casos de Pruebas: **5**
+* Porcentaje de Cobertura: **100%**
 
-  ![result-test](./resultTest.png)
+![test-coverage2](images/test-coverage2.png)
+
+--------------------------------------------------------------
 
 ### Implementación
 
 Realizo un `Exploritory Testing` de la API Back usando la herramienta `Postman` para tener más detalle de los request y response que el servicio genera.
 
-Aplico principios `SOLID` para desarrollar unos scripts escalables y de fácil mantenimiento; (teniendo en cuenta que el desarrollo estaba hecho), aplico `BDD` para realizar los test unitarios y de integración con base a principios de `Clean Code` y aplicando las `Best Practices` recomendadas por los diferentes frameworks utilizados, como: `Jest`, `Supertest`, `Nock`, `Sinon` `Axios`. Empleando mocks y datos de pruebas que son utilizados y almacenados en la capa `Util` de los test. 
+Aplico principios `SOLID` para desarrollar unos scripts escalables y de fácil mantenimiento; (teniendo en cuenta que el desarrollo estaba hecho), aplico `BDD` para realizar los test unitarios y de integración con base a principios de `Clean Code` y aplicando las `Best Practices` recomendadas por los diferentes frameworks utilizados, como: `Jest`, `Supertest`, `Nock`, `Sinon`, `Axios`. Empleando mocks y datos de pruebas que son utilizados y almacenados en la capa `Util` de los test.
 
-### CI-CD
+Aseguro un `100%` la cobertura de los test, cubriendo así mismo los casos en que la api funciona de forma correcta y de forma incorrecta.
+
+--------------------------------------------------------------
+
+### CI
+
+Creo un archivo `ci.yml` dentro de la ruta: `.github/workflows` que contiene las instrucciones necesarias para llevar a cabo la ejecución de un pipeline de CI que se encarga de ejecutar los `Test` sí se hace un `push` o un `Pull Request` a la rama `Main` (Esto es orquestado por `Github Actions` de forma automatizada).
+
+**Resultado de Ejecución**
+
+![ci-result](images/ci-result.png)
+
+
+--------------------------------------------------------------
+
+## Preparación y Ejecución Local
+
+Sigue las instrucciones que he hecho en `local_config.pdf`
+
+> Ejecuta los comandos: `npm install` y luego `npm run test`
+
+--------------------------------------------------------------
 
 ## Requerimientos
 
