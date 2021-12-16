@@ -1,7 +1,7 @@
 # Challenge Backend
 
 
-## Resolución de Pruebas
+## Resolución de Tests
 
 1. Preparo mi ambiente local y hago un exploritoring testing como muestra el documento: `Informe.pdf`
 
@@ -11,6 +11,13 @@
 
   ![result-test](./resultTest.png)
 
+### Implementación
+
+Realizo un `Exploritory Testing` de la API Back usando la herramienta `Postman` para tener más detalle de los request y response que el servicio genera.
+
+Aplico principios `SOLID` para desarrollar unos scripts escalables y de fácil mantenimiento; (teniendo en cuenta que el desarrollo estaba hecho), aplico `BDD` para realizar los test unitarios y de integración con base a principios de `Clean Code` y aplicando las `Best Practices` recomendadas por los diferentes frameworks utilizados, como: `Jest`, `Supertest`, `Nock`, `Sinon` `Axios`. Empleando mocks y datos de pruebas que son utilizados y almacenados en la capa `Util` de los test. 
+
+### CI-CD
 
 ## Requerimientos
 

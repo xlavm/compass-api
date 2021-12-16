@@ -1,0 +1,23 @@
+name: CI
+on: # Este pipeline se ejecutará:
+  push: # al hacer push a la rama
+    branches: [main]
+  pull_request: # al crear un PR a la rama
+    branches: [main]
+
+jobs:
+  ci:
+    name: ci-job
+    runs-on: ubuntu-latest # ejecutar en Ubuntu
+    steps:
+      - uses: actions/checkout@v2 # clonar repositorio actual
+      - uses: actions/setup-node@v1 # usar Node
+        with:
+          node-version: 12
+      # instalar dependencias
+      - name: Install
+        run: npm install
+      # es recomendable que antes de los test se haga el build pero a modo de esta prueba, no lo realizaré
+      # ejecutar pruebas unitarias
+      - name: Test
+        run: npm run test
