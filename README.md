@@ -15,9 +15,13 @@
 
 ![test-coverage2](images/test-coverage2.png)
 
+Casos de Pruebas
+
+![test-cases](images/test-cases.png)
+
 --------------------------------------------------------------
 
-### Implementación
+## Implementación - Test
 
 Realizo un `Exploritory Testing` de la API Back usando la herramienta `Postman` para tener más detalle de los request y response que el servicio genera.
 
@@ -27,7 +31,7 @@ Aseguro un `100%` la cobertura de los test, cubriendo así mismo los casos en qu
 
 --------------------------------------------------------------
 
-### CI
+## CI - Test
 
 Creo un archivo `ci.yml` dentro de la ruta: `.github/workflows` que contiene las instrucciones necesarias para llevar a cabo la ejecución de un pipeline de CI que se encarga de ejecutar los `Test` sí se hace un `push` o un `Pull Request` a la rama `Main` (Esto es orquestado por `Github Actions` de forma automatizada).
 
@@ -38,7 +42,7 @@ Creo un archivo `ci.yml` dentro de la ruta: `.github/workflows` que contiene las
 
 --------------------------------------------------------------
 
-## Preparación y Ejecución Local
+## Preparación y Ejecución Local - Test
 
 Sigue las instrucciones que he hecho en `local_config.pdf`
 
